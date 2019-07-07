@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Buenard|Poppins:400,300,500,600,700|Cookie);
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 /* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Varela&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap'); */
 
@@ -37,10 +38,11 @@ h1 {
   font-size: 90px; }
 
 h2 { 
-  font-family: 'Poppins', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 40px;
   font-weight: 300;
-  color: #3D4351; }
+  padding-bottom: 20px;
+  color: #f88379; }
 
 h3 {
   font-family: 'Pacifico', cursive;
@@ -83,16 +85,16 @@ h5 {
 
 .btn-fill {
   color: #fff;
-  border: solid 2px #E84547;
+  border: solid 2px #f16457;
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #E84547; }
+  background-color: #f16457; }
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: #F8806F;
-  border-color: #F8806F; }
+  background-color: #f88379;
+  border-color: #F88379; }
 
 .btn-small {
   /* padding: 8px 40px; */ 
@@ -147,6 +149,8 @@ a:hover, a:focus {
 
 body {
   /* font-family: "Open Sans", sans-serif;  */
+ /* font-family: 'Cabin', sans-serif; */
+ /* font-family: 'Source Sans Pro', sans-serif; */
   font-family: "Poppins", san-serif;
   /* font-family: "Montserrat"; */
   /* font-family: "Varela"; */
@@ -424,7 +428,7 @@ Navigation
 Hero
 ========================================================================== */
   .hero {
-  height: 550px;
+  height: 600px;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -485,7 +489,7 @@ header {
           /* color: #FF5274; */
           /* color: #FF5F69; peach? */ 
           /* color: #F5D7CD; blush pink */
-          color: #F28A52; }
+          color: #f88379; }
       header ul.primary-nav li:last-child a {
         padding-right: 0px; }
   header ul.member-actions li {
@@ -513,7 +517,7 @@ header {
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
 
-/* ==========================================================================
+/* =================================================:1=========================
 Intro
 ========================================================================== */
 .intro span.icon {
