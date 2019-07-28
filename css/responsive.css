@@ -1,0 +1,48 @@
+
+/* Responsive nav kicks in */
+@media screen and (max-width:991px) {
+	header {
+		width: 90%;
+		padding-left: 25px;
+	}
+
+	.hero .hero-content {
+		padding-top: 32%;
+    }
+
+	.navicon {
+		visibility: visible;
+    }
+
+    .header-nav {
+		position: fixed;
+		background-color: #000;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 99999;
+		visibility: hidden;
+		opacity: 0;
+		-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+		transition: opacity 0.5s, visibility 0s 0.5s;
+    }
+    
+    ul.member-actions {
+		position: static;
+	}
+
+	.navicon {
+		visibility: visible;
+	}
+
+	header .nav-wrapper {
+		display: absolute;
+	}
+
+    header nav {
+		position:relative;
+	}
+
+    
+  }
